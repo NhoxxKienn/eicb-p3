@@ -1,0 +1,19 @@
+//RECSEL3
+record r1 {
+    var int x;
+}
+
+record r2 {
+    var matrix<float>[2][2] y;
+}
+
+function void main(){
+    var r1 a;
+    a = @r1[1];
+
+    var r2 b;
+    b = @r2[[[1.0, 2.0],[3.0, 4.0]]];
+
+    printFloat(b@y[a@x][0]);
+    printLine();
+}

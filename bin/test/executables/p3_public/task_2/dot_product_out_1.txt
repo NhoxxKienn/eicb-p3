@@ -1,0 +1,4 @@
+20
+10
+
+The program has finished successfully.

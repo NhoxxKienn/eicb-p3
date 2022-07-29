@@ -1,0 +1,7 @@
+123456789
+123
+147
+
+10
+
+The program has finished successfully.

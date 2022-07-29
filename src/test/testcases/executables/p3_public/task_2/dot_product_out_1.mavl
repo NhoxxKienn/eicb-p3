@@ -1,0 +1,12 @@
+function void main() {
+	val int stackGuard = 10;
+	
+	val vector<int>[3] l = [1,2,3];
+	val vector<int>[3] r = [2,3,4];
+	
+	printInt(l .* r);
+	printLine();
+	
+	printInt(stackGuard);
+	printLine();
+}

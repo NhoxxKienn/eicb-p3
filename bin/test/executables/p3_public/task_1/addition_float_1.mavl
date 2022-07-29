@@ -1,0 +1,12 @@
+function void main() {
+	val int stackGuard = 10;
+	
+	val float a = 2.0;
+	val float b = 0.3;
+	
+	printFloat(a + b);
+	printLine();
+	
+	printInt(stackGuard);
+	printLine();
+}
